@@ -4,14 +4,14 @@
 # product namespace under which all content lives. May only contain
 # alphanumeric lowercase characters and underscores. Namespaces cannot start
 # with underscores or numbers and cannot contain consecutive underscores
-namespace: oddbit_dot_com
+namespace: larsks
 
 # The name of the collection. Has the same character restrictions as
 # 'namespace'
 name: ignition
 
 # The version of the collection. Must be compatible with semantic versioning
-version: 1.0.0
+version: 1.0.1
 
 # The path to the Markdown (.md) readme file. This path is relative to the root
 # of the collection

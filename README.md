@@ -1,4 +1,4 @@
-# Ansible Collection - oddbit_dot_com.ignition
+# Ansible Collection - larsks.ignition
 
 This collection provides the `ignition_encode` filter, which will encode files for use in the `contents` key of an [Ignition][] `file` specification.
 
