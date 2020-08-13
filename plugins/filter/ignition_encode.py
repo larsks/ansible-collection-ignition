@@ -10,5 +10,4 @@ class FilterModule(object):
     def filters(self):
         return {
             'ignition_encode': ignition_encode,
-            'ignition_encode_files': ignition_encode_files,
         }
