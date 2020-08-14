@@ -1,0 +1,11 @@
+---
+- name: generate ignition encoded data
+  set_fact:
+    encoded_data: "{{ 'This is a test.' | larsks.ignition.ignition_encode }}"
+
+- assert:
+    that:
+       - encoded_data == expected_data
+  vars:
+    expected_data: >-
+      data:text/plain;charset=utf-8;base64,VGhpcyBpcyBhIHRlc3Qu
